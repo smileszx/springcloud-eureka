@@ -15,4 +15,4 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://centos-p160:${server.port}/eureka-server/eureka,http://centos-p161:${server.port}/eureka-server/eureka,http://centos-p162:${server.port}/eureka-server/eureka
